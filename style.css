@@ -1,0 +1,63 @@
+*{
+
+
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+
+   /* background-image: url(./Images/bg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;*/
+    overflow:hidden;
+    height: 100vh;
+
+}
+
+
+.taskbar{
+
+position: absolute;
+width: 100%;
+bottom: 0;
+display:flex;
+z-index: 1;
+justify-content:center;
+background-color:#f3f3f3; 
+
+
+}
+
+.taskbar .taskbar-right {
+
+    position:absolute;
+    right: 0;
+    height: 100%;
+
+}
+
+
+.startmenu{
+    position:absolute;
+    bottom:-650px;
+    width:100%;
+    text-align:center;
+    transition: all 0.3s ease-in;
+}
+.startmenu img {
+
+    border-radius:8px;
+}
+
+
+.icons .chrome{
+    width: 85px;
+}
+
+.icons{
+    color:black;
+    margin: 10px 20px;
+
+}
